@@ -1,43 +1,67 @@
-*{
-    box-sizing: border-box;
-    font-family: "Europa",;
-    background-color: #285949;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-img  {
-    width: 373px;
-    height: 250px;
-    display: flex;
+body {
+  background-color: #285949;
+  font-family: Arial, sans-serif;
 }
 
+/* Container central */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Logo */
+.logo {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Fonte especial */
 .rubik-mono-one-regular {
   font-family: "Rubik Mono One", monospace;
-  font-weight:normal;
-  font-style: normal;
 }
 
+/* Títulos */
 h1 {
-    font-size: 24px;
-    justify-content: center;
-    text-align: center;
-    color: #FFFFFF;
+  font-size: clamp(1.6rem, 5vw, 2.5rem);
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
 }
 
 h2 {
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-top: 25px;
+  color: #fff;
+  margin: 32px 0 16px;
 }
 
+/* Lista */
+ul {
+  list-style: none;
+}
+
+/* Item checklist */
 li {
-    font-size: 20px;
-    color: #FFFFFF;
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 12px;
 }
 
+/* Checkbox */
 input[type="checkbox"] {
-    width: 600px;
-    height: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
 }

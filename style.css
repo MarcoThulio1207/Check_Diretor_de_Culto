@@ -16,6 +16,14 @@ img  {
   font-style: normal;
 }
 
+th {
+            color: white;
+        }
+
+input::placeholder {
+            color: white;
+        }
+
 h1 {
     font-size: 24px;
     justify-content: center;
@@ -41,3 +49,4 @@ input[type="checkbox"] {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
